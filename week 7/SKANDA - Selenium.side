@@ -1,0 +1,1417 @@
+{
+  "id": "807da544-654b-46c0-8be5-7ebfa5a2f47c",
+  "version": "2.0",
+  "name": "SKANDA",
+  "url": "https://skandabysarasi.com/",
+  "tests": [{
+    "id": "0b0a7441-451d-4056-bbda-6dd480da48bf",
+    "name": "place order",
+    "commands": [{
+      "id": "a04fac7e-da89-4e36-82c4-747c66595fc6",
+      "comment": "",
+      "command": "open",
+      "target": "https://skandabysarasi.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1630b046-14d3-41b1-89a5-61d6c61a8f33",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x786",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b1864c40-05f2-4367-b3e6-36ce3887ccd7",
+      "comment": "",
+      "command": "click",
+      "target": "id=slider-1-slide-1-layer-5",
+      "targets": [
+        ["id=slider-1-slide-1-layer-5", "id"],
+        ["linkText=Shop Now", "linkText"],
+        ["css=#slider-1-slide-1-layer-5", "css:finder"],
+        ["xpath=//a[contains(text(),'Shop Now')]", "xpath:link"],
+        ["xpath=//a[@id='slider-1-slide-1-layer-5']", "xpath:attributes"],
+        ["xpath=//rs-group[@id='slider-1-slide-1-layer-0']/rs-layer-wrap[2]/rs-loop-wrap/rs-mask-wrap/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/shop/')])[13]", "xpath:href"],
+        ["xpath=//rs-mask-wrap/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Shop Now')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "22945eb4-a99f-47b6-8cdc-fa883a171557",
+      "comment": "",
+      "command": "click",
+      "target": "css=.post-2821 .product-item-link",
+      "targets": [
+        ["css=.post-2821 .product-item-link", "css:finder"],
+        ["xpath=//article[@id='post-67']/div/div/div/div[2]/div/div/div/div[6]/div/div/div/div/ul/li/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://skandabysarasi.com/?product=paperbag-denim-shorts')]", "xpath:href"],
+        ["xpath=//li/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f4029d7-bb3a-4285-84c5-bbc0a2ab4e7f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,36)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b641a8a2-6482-44dd-a94b-e0f5dc414173",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,190)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0b11524c-daf0-45a7-80ca-0b8007290788",
+      "comment": "",
+      "command": "click",
+      "target": "name=add-to-cart",
+      "targets": [
+        ["name=add-to-cart", "name"],
+        ["css=.single_add_to_cart_button", "css:finder"],
+        ["xpath=//button[@name='add-to-cart']", "xpath:attributes"],
+        ["xpath=//div[@id='product-2821']/div/div/div[2]/div/form/div/button", "xpath:idRelative"],
+        ["xpath=//form/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "acb81575-742e-4708-b6a5-56534a8dc509",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,284)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d55a9288-2cc3-4ad0-bf29-fff65f0a3eaa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.with-button > .button",
+      "targets": [
+        ["css=.with-button > .button", "css:finder"],
+        ["xpath=//a[contains(text(),'View cart')]", "xpath:link"],
+        ["xpath=//main[@id='main']/div/div/p/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://skandabysarasi.com/?page_id=2662')])[3]", "xpath:href"],
+        ["xpath=//p/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "717fd4e9-f203-408c-8af8-37265285f2a5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.checkout-button",
+      "targets": [
+        ["css=.checkout-button", "css:finder"],
+        ["xpath=//a[contains(text(),'Proceed to checkout')]", "xpath:link"],
+        ["xpath=//article[@id='post-2662']/div/div/div[2]/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://skandabysarasi.com/?page_id=2663')])[3]", "xpath:href"],
+        ["xpath=//div[2]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "48cdb7fe-a702-41ac-9df5-bf2a0e62de4a",
+      "comment": "",
+      "command": "click",
+      "target": "id=billing_first_name",
+      "targets": [
+        ["id=billing_first_name", "id"],
+        ["name=billing_first_name", "name"],
+        ["css=#billing_first_name", "css:finder"],
+        ["xpath=//input[@id='billing_first_name']", "xpath:attributes"],
+        ["xpath=//p[@id='billing_first_name_field']/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "23e9cdc5-1841-4975-bbe8-4a758d937fc1",
+      "comment": "",
+      "command": "type",
+      "target": "id=billing_first_name",
+      "targets": [
+        ["id=billing_first_name", "id"],
+        ["name=billing_first_name", "name"],
+        ["css=#billing_first_name", "css:finder"],
+        ["xpath=//input[@id='billing_first_name']", "xpath:attributes"],
+        ["xpath=//p[@id='billing_first_name_field']/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": "kamal"
+    }, {
+      "id": "ee003faf-af19-4f52-a001-640d113ba8be",
+      "comment": "",
+      "command": "type",
+      "target": "id=billing_last_name",
+      "targets": [
+        ["id=billing_last_name", "id"],
+        ["name=billing_last_name", "name"],
+        ["css=#billing_last_name", "css:finder"],
+        ["xpath=//input[@id='billing_last_name']", "xpath:attributes"],
+        ["xpath=//p[@id='billing_last_name_field']/span/input", "xpath:idRelative"],
+        ["xpath=//p[2]/span/input", "xpath:position"]
+      ],
+      "value": "kamal"
+    }, {
+      "id": "7ddc6396-33a3-4df9-a039-dd139f1cd186",
+      "comment": "",
+      "command": "click",
+      "target": "id=billing_address_1",
+      "targets": [
+        ["id=billing_address_1", "id"],
+        ["name=billing_address_1", "name"],
+        ["css=#billing_address_1", "css:finder"],
+        ["xpath=//input[@id='billing_address_1']", "xpath:attributes"],
+        ["xpath=//p[@id='billing_address_1_field']/span/input", "xpath:idRelative"],
+        ["xpath=//p[5]/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0b757d68-2ebb-4ec3-9413-3eb9dd25a0e7",
+      "comment": "",
+      "command": "type",
+      "target": "id=billing_address_1",
+      "targets": [
+        ["id=billing_address_1", "id"],
+        ["name=billing_address_1", "name"],
+        ["css=#billing_address_1", "css:finder"],
+        ["xpath=//input[@id='billing_address_1']", "xpath:attributes"],
+        ["xpath=//p[@id='billing_address_1_field']/span/input", "xpath:idRelative"],
+        ["xpath=//p[5]/span/input", "xpath:position"]
+      ],
+      "value": "01,asdas,dsadasd"
+    }, {
+      "id": "16676f0d-13b4-4154-9fc9-6218e1aa6025",
+      "comment": "",
+      "command": "click",
+      "target": "id=billing_city",
+      "targets": [
+        ["id=billing_city", "id"],
+        ["name=billing_city", "name"],
+        ["css=#billing_city", "css:finder"],
+        ["xpath=//input[@id='billing_city']", "xpath:attributes"],
+        ["xpath=//p[@id='billing_city_field']/span/input", "xpath:idRelative"],
+        ["xpath=//p[7]/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1059bea8-7353-450d-a3f6-bf2d5f8e7964",
+      "comment": "",
+      "command": "type",
+      "target": "id=billing_city",
+      "targets": [
+        ["id=billing_city", "id"],
+        ["name=billing_city", "name"],
+        ["css=#billing_city", "css:finder"],
+        ["xpath=//input[@id='billing_city']", "xpath:attributes"],
+        ["xpath=//p[@id='billing_city_field']/span/input", "xpath:idRelative"],
+        ["xpath=//p[7]/span/input", "xpath:position"]
+      ],
+      "value": "kandy"
+    }, {
+      "id": "d087776d-c7f8-430f-9767-5fe6456cb568",
+      "comment": "",
+      "command": "click",
+      "target": "id=billing_postcode",
+      "targets": [
+        ["id=billing_postcode", "id"],
+        ["name=billing_postcode", "name"],
+        ["css=#billing_postcode", "css:finder"],
+        ["xpath=//input[@id='billing_postcode']", "xpath:attributes"],
+        ["xpath=//p[@id='billing_postcode_field']/span/input", "xpath:idRelative"],
+        ["xpath=//p[9]/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0683e920-e104-4391-bfe6-afb09c081717",
+      "comment": "",
+      "command": "type",
+      "target": "id=billing_postcode",
+      "targets": [
+        ["id=billing_postcode", "id"],
+        ["name=billing_postcode", "name"],
+        ["css=#billing_postcode", "css:finder"],
+        ["xpath=//input[@id='billing_postcode']", "xpath:attributes"],
+        ["xpath=//p[@id='billing_postcode_field']/span/input", "xpath:idRelative"],
+        ["xpath=//p[9]/span/input", "xpath:position"]
+      ],
+      "value": "1234"
+    }, {
+      "id": "538d4bad-01ff-4b3c-a4d1-8ec12547db2c",
+      "comment": "",
+      "command": "click",
+      "target": "id=billing_phone",
+      "targets": [
+        ["id=billing_phone", "id"],
+        ["name=billing_phone", "name"],
+        ["css=#billing_phone", "css:finder"],
+        ["xpath=//input[@id='billing_phone']", "xpath:attributes"],
+        ["xpath=//p[@id='billing_phone_field']/span/input", "xpath:idRelative"],
+        ["xpath=//p[10]/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dcc1742e-afa8-450f-813b-1366b0b0dfef",
+      "comment": "",
+      "command": "type",
+      "target": "id=billing_phone",
+      "targets": [
+        ["id=billing_phone", "id"],
+        ["name=billing_phone", "name"],
+        ["css=#billing_phone", "css:finder"],
+        ["xpath=//input[@id='billing_phone']", "xpath:attributes"],
+        ["xpath=//p[@id='billing_phone_field']/span/input", "xpath:idRelative"],
+        ["xpath=//p[10]/span/input", "xpath:position"]
+      ],
+      "value": "01234567890"
+    }, {
+      "id": "6ff60acf-fc08-4237-a3af-27cfc1ebe625",
+      "comment": "",
+      "command": "click",
+      "target": "id=billing_email",
+      "targets": [
+        ["id=billing_email", "id"],
+        ["name=billing_email", "name"],
+        ["css=#billing_email", "css:finder"],
+        ["xpath=//input[@id='billing_email']", "xpath:attributes"],
+        ["xpath=//p[@id='billing_email_field']/span/input", "xpath:idRelative"],
+        ["xpath=//p[11]/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2a419da5-256c-46ad-a302-889c2a85a9c2",
+      "comment": "",
+      "command": "type",
+      "target": "id=billing_email",
+      "targets": [
+        ["id=billing_email", "id"],
+        ["name=billing_email", "name"],
+        ["css=#billing_email", "css:finder"],
+        ["xpath=//input[@id='billing_email']", "xpath:attributes"],
+        ["xpath=//p[@id='billing_email_field']/span/input", "xpath:idRelative"],
+        ["xpath=//p[11]/span/input", "xpath:position"]
+      ],
+      "value": "kamal@kamal.com"
+    }, {
+      "id": "c7ad19e2-85cf-4678-b266-780732d914d2",
+      "comment": "",
+      "command": "click",
+      "target": "id=place_order",
+      "targets": [
+        ["id=place_order", "id"],
+        ["name=woocommerce_checkout_place_order", "name"],
+        ["css=#place_order", "css:finder"],
+        ["xpath=//button[@id='place_order']", "xpath:attributes"],
+        ["xpath=//div[@id='payment']/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "994128b7-703f-4088-a2ff-b43c1d5ae076",
+    "name": "login",
+    "commands": [{
+      "id": "4f8c45fc-6431-499d-b838-ddd092418f89",
+      "comment": "",
+      "command": "open",
+      "target": "https://skandabysarasi.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f4e7445e-6cc2-4769-9387-4ac5ccea34c3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "899x694",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d14ad34d-3371-45d2-a3ea-e252bdfbc851",
+      "comment": "",
+      "command": "click",
+      "target": "css=.irina-user-bar > use",
+      "targets": [
+        ["css=.irina-user-bar > use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "9c6e1005-3881-49f2-a605-33eee731e8e1",
+      "comment": "",
+      "command": "click",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//div[@id='nova-login-form']/form/p/input", "xpath:idRelative"],
+        ["xpath=//p/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "81bfba52-1667-41f0-b73f-704b26474ae2",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//div[@id='nova-login-form']/form/p/input", "xpath:idRelative"],
+        ["xpath=//p/input", "xpath:position"]
+      ],
+      "value": "lawantha-test"
+    }, {
+      "id": "ec336d61-bfc1-4903-a12f-3223976d8021",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='nova-login-form']/form/p[2]/input", "xpath:idRelative"],
+        ["xpath=//p[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "88dab275-ded5-416f-bf82-8ae8f1bde592",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='nova-login-form']/form/p[2]/input", "xpath:idRelative"],
+        ["xpath=//p[2]/input", "xpath:position"]
+      ],
+      "value": "lawantha1234"
+    }, {
+      "id": "7c487009-952a-4068-830d-86353a411583",
+      "comment": "",
+      "command": "click",
+      "target": "name=login",
+      "targets": [
+        ["name=login", "name"],
+        ["css=.woocommerce-button", "css:finder"],
+        ["xpath=//button[@name='login']", "xpath:attributes"],
+        ["xpath=//div[@id='nova-login-form']/form/p[4]/button", "xpath:idRelative"],
+        ["xpath=//p[4]/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "a588feab-65ea-4843-a804-c698199791d4",
+    "name": "spin wheel",
+    "commands": [{
+      "id": "69fde5c3-6ffd-4764-abd5-06080c73de14",
+      "comment": "",
+      "command": "open",
+      "target": "https://skandabysarasi.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8b538bd2-97e7-499c-ba0d-fdea1bea6841",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x786",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c1511fc8-7b60-4e5f-8c68-e7f9397e1f73",
+      "comment": "",
+      "command": "click",
+      "target": "id=wplwl_popup_canvas",
+      "targets": [
+        ["id=wplwl_popup_canvas", "id"],
+        ["css=#wplwl_popup_canvas", "css:finder"],
+        ["xpath=//canvas[@id='wplwl_popup_canvas']", "xpath:attributes"],
+        ["xpath=//body/canvas", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b983450a-c422-4675-b6f2-b5f421722e05",
+      "comment": "",
+      "command": "click",
+      "target": "id=wplwl_player_name",
+      "targets": [
+        ["id=wplwl_player_name", "id"],
+        ["name=wplwl_player_name", "name"],
+        ["css=#wplwl_player_name", "css:finder"],
+        ["xpath=//input[@id='wplwl_player_name']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "94f6329a-bc4e-44bc-8990-af170ce8c153",
+      "comment": "",
+      "command": "type",
+      "target": "id=wplwl_player_name",
+      "targets": [
+        ["id=wplwl_player_name", "id"],
+        ["name=wplwl_player_name", "name"],
+        ["css=#wplwl_player_name", "css:finder"],
+        ["xpath=//input[@id='wplwl_player_name']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "lawantha-test"
+    }, {
+      "id": "0708d09c-0d37-4e8c-a5a2-f4b5efd30932",
+      "comment": "",
+      "command": "click",
+      "target": "id=wplwl_player_mail",
+      "targets": [
+        ["id=wplwl_player_mail", "id"],
+        ["name=wplwl_player_mail", "name"],
+        ["css=#wplwl_player_mail", "css:finder"],
+        ["xpath=//input[@id='wplwl_player_mail']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "691fe84a-6137-4241-a782-3d1856516bde",
+      "comment": "",
+      "command": "type",
+      "target": "id=wplwl_player_mail",
+      "targets": [
+        ["id=wplwl_player_mail", "id"],
+        ["name=wplwl_player_mail", "name"],
+        ["css=#wplwl_player_mail", "css:finder"],
+        ["xpath=//input[@id='wplwl_player_mail']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "lawanthatest@gmail.com"
+    }, {
+      "id": "feb0b814-8813-4223-b807-fc39f839fc43",
+      "comment": "",
+      "command": "click",
+      "target": "id=wplwl_chek_mail",
+      "targets": [
+        ["id=wplwl_chek_mail", "id"],
+        ["css=#wplwl_chek_mail", "css:finder"],
+        ["xpath=//span[@id='wplwl_chek_mail']", "xpath:attributes"],
+        ["xpath=//div[8]/div/div[2]/div[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "16bd37bd-3818-4562-a3b5-2f35f86c362a",
+    "name": "change password",
+    "commands": [{
+      "id": "eb4e2b83-5828-43dc-b42f-e43040b7b1b8",
+      "comment": "",
+      "command": "open",
+      "target": "https://skandabysarasi.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "62823aae-4e60-400d-b068-14151d64b162",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x786",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ce957bc0-699f-4353-8568-3ea024d0ec6a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Account details",
+      "targets": [
+        ["linkText=Account details", "linkText"],
+        ["css=.header-account .menu-item:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Account details')]", "xpath:link"],
+        ["xpath=//header[@id='masthead']/div/div[3]/div/ul/li/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://skandabysarasi.com/?page_id=2664&edit-account')]", "xpath:href"],
+        ["xpath=//div[3]/div/ul/li/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Account details')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "feb587cd-93b8-4d8b-b75f-4a5905247ba4",
+      "comment": "",
+      "command": "click",
+      "target": "id=password_current",
+      "targets": [
+        ["id=password_current", "id"],
+        ["name=password_current", "name"],
+        ["css=#password_current", "css:finder"],
+        ["xpath=//input[@id='password_current']", "xpath:attributes"],
+        ["xpath=//article[@id='post-2664']/div/div/div/form/fieldset/p/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f03fe97d-fec8-4511-9e6d-05f2d62e41af",
+      "comment": "",
+      "command": "click",
+      "target": "id=password_1",
+      "targets": [
+        ["id=password_1", "id"],
+        ["name=password_1", "name"],
+        ["css=#password_1", "css:finder"],
+        ["xpath=//input[@id='password_1']", "xpath:attributes"],
+        ["xpath=//article[@id='post-2664']/div/div/div/form/fieldset/p[2]/span/input", "xpath:idRelative"],
+        ["xpath=//p[2]/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "02c01ac0-979e-4d27-927d-ca1f2c855fb1",
+      "comment": "",
+      "command": "type",
+      "target": "id=password_1",
+      "targets": [
+        ["id=password_1", "id"],
+        ["name=password_1", "name"],
+        ["css=#password_1", "css:finder"],
+        ["xpath=//input[@id='password_1']", "xpath:attributes"],
+        ["xpath=//article[@id='post-2664']/div/div/div/form/fieldset/p[2]/span/input", "xpath:idRelative"],
+        ["xpath=//p[2]/span/input", "xpath:position"]
+      ],
+      "value": "lawantha1234"
+    }, {
+      "id": "7d41b2b6-2c19-479c-ae5e-42b194c23693",
+      "comment": "",
+      "command": "click",
+      "target": "id=password_2",
+      "targets": [
+        ["id=password_2", "id"],
+        ["name=password_2", "name"],
+        ["css=#password_2", "css:finder"],
+        ["xpath=//input[@id='password_2']", "xpath:attributes"],
+        ["xpath=//article[@id='post-2664']/div/div/div/form/fieldset/p[3]/span/input", "xpath:idRelative"],
+        ["xpath=//p[3]/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c28ba4b0-01c5-43cb-9019-fa9965b95fa8",
+      "comment": "",
+      "command": "type",
+      "target": "id=password_2",
+      "targets": [
+        ["id=password_2", "id"],
+        ["name=password_2", "name"],
+        ["css=#password_2", "css:finder"],
+        ["xpath=//input[@id='password_2']", "xpath:attributes"],
+        ["xpath=//article[@id='post-2664']/div/div/div/form/fieldset/p[3]/span/input", "xpath:idRelative"],
+        ["xpath=//p[3]/span/input", "xpath:position"]
+      ],
+      "value": "lawantha1234"
+    }, {
+      "id": "e45a423e-b5d2-4b8c-bc55-c91c2597e1b4",
+      "comment": "",
+      "command": "click",
+      "target": "name=save_account_details",
+      "targets": [
+        ["name=save_account_details", "name"],
+        ["css=.woocommerce-Button", "css:finder"],
+        ["xpath=//button[@name='save_account_details']", "xpath:attributes"],
+        ["xpath=//article[@id='post-2664']/div/div/div/form/p[5]/button", "xpath:idRelative"],
+        ["xpath=//p[5]/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "e5e2f445-4ea5-4858-b050-dc7119ed32e7",
+    "name": "change acc details",
+    "commands": [{
+      "id": "abab48cc-0a3c-4f1e-b5f9-64107ab97d06",
+      "comment": "",
+      "command": "open",
+      "target": "https://skandabysarasi.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1df83e14-312d-4fc9-8dfe-0126ee70d2c5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x786",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "25fbba6e-9ec3-4116-880a-a2d9d0d3b3d5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Account details",
+      "targets": [
+        ["linkText=Account details", "linkText"],
+        ["css=.header-account .menu-item:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Account details')]", "xpath:link"],
+        ["xpath=//header[@id='masthead']/div/div[3]/div/ul/li/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://skandabysarasi.com/?page_id=2664&edit-account')]", "xpath:href"],
+        ["xpath=//div[3]/div/ul/li/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Account details')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c35076d9-a6d3-4de9-9add-666f001ed82c",
+      "comment": "",
+      "command": "click",
+      "target": "id=account_first_name",
+      "targets": [
+        ["id=account_first_name", "id"],
+        ["name=account_first_name", "name"],
+        ["css=#account_first_name", "css:finder"],
+        ["xpath=//input[@id='account_first_name']", "xpath:attributes"],
+        ["xpath=//article[@id='post-2664']/div/div/div/form/p/input", "xpath:idRelative"],
+        ["xpath=//p/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3124e3a3-3be8-4089-9348-f9f0c9c18cd7",
+      "comment": "",
+      "command": "click",
+      "target": "id=account_last_name",
+      "targets": [
+        ["id=account_last_name", "id"],
+        ["name=account_last_name", "name"],
+        ["css=#account_last_name", "css:finder"],
+        ["xpath=//input[@id='account_last_name']", "xpath:attributes"],
+        ["xpath=//article[@id='post-2664']/div/div/div/form/p[2]/input", "xpath:idRelative"],
+        ["xpath=//p[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6580f6aa-8d7d-41ba-aa2d-57b81bd32387",
+      "comment": "",
+      "command": "type",
+      "target": "id=account_last_name",
+      "targets": [
+        ["id=account_last_name", "id"],
+        ["name=account_last_name", "name"],
+        ["css=#account_last_name", "css:finder"],
+        ["xpath=//input[@id='account_last_name']", "xpath:attributes"],
+        ["xpath=//article[@id='post-2664']/div/div/div/form/p[2]/input", "xpath:idRelative"],
+        ["xpath=//p[2]/input", "xpath:position"]
+      ],
+      "value": "Test"
+    }, {
+      "id": "2d260f51-fab8-4fda-b403-843d8aa9847b",
+      "comment": "",
+      "command": "click",
+      "target": "id=account_display_name",
+      "targets": [
+        ["id=account_display_name", "id"],
+        ["name=account_display_name", "name"],
+        ["css=#account_display_name", "css:finder"],
+        ["xpath=//input[@id='account_display_name']", "xpath:attributes"],
+        ["xpath=//article[@id='post-2664']/div/div/div/form/p[3]/input", "xpath:idRelative"],
+        ["xpath=//p[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aec6e850-db45-49c3-8b67-4a2e44fb877a",
+      "comment": "",
+      "command": "type",
+      "target": "id=account_display_name",
+      "targets": [
+        ["id=account_display_name", "id"],
+        ["name=account_display_name", "name"],
+        ["css=#account_display_name", "css:finder"],
+        ["xpath=//input[@id='account_display_name']", "xpath:attributes"],
+        ["xpath=//article[@id='post-2664']/div/div/div/form/p[3]/input", "xpath:idRelative"],
+        ["xpath=//p[3]/input", "xpath:position"]
+      ],
+      "value": "Lawantha Test"
+    }, {
+      "id": "de8c83bc-3916-4a17-92de-f3b80c59be1f",
+      "comment": "",
+      "command": "click",
+      "target": "name=save_account_details",
+      "targets": [
+        ["name=save_account_details", "name"],
+        ["css=.woocommerce-Button", "css:finder"],
+        ["xpath=//button[@name='save_account_details']", "xpath:attributes"],
+        ["xpath=//article[@id='post-2664']/div/div/div/form/p[5]/button", "xpath:idRelative"],
+        ["xpath=//p[5]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8a549969-3d19-4b53-8510-e1cc24b5e0b0",
+      "comment": "",
+      "command": "click",
+      "target": "id=password_current",
+      "targets": [
+        ["id=password_current", "id"],
+        ["name=password_current", "name"],
+        ["css=#password_current", "css:finder"],
+        ["xpath=//input[@id='password_current']", "xpath:attributes"],
+        ["xpath=//article[@id='post-2664']/div/div/div/form/fieldset/p/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8084ccf7-50eb-473a-ae0d-1213a6e80201",
+      "comment": "",
+      "command": "click",
+      "target": "id=password_current",
+      "targets": [
+        ["id=password_current", "id"],
+        ["name=password_current", "name"],
+        ["css=#password_current", "css:finder"],
+        ["xpath=//input[@id='password_current']", "xpath:attributes"],
+        ["xpath=//article[@id='post-2664']/div/div/div/form/fieldset/p/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "53dc8f41-0924-47a0-994c-bceb53e9fe46",
+      "comment": "",
+      "command": "type",
+      "target": "id=password_current",
+      "targets": [
+        ["id=password_current", "id"],
+        ["name=password_current", "name"],
+        ["css=#password_current", "css:finder"],
+        ["xpath=//input[@id='password_current']", "xpath:attributes"],
+        ["xpath=//article[@id='post-2664']/div/div/div/form/fieldset/p/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": "lawantha1234"
+    }, {
+      "id": "c9a471f2-3537-4c59-ac40-c52c410c3721",
+      "comment": "",
+      "command": "click",
+      "target": "name=save_account_details",
+      "targets": [
+        ["name=save_account_details", "name"],
+        ["css=.woocommerce-Button", "css:finder"],
+        ["xpath=//button[@name='save_account_details']", "xpath:attributes"],
+        ["xpath=//article[@id='post-2664']/div/div/div/form/p[5]/button", "xpath:idRelative"],
+        ["xpath=//p[5]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cab637f7-da72-47f9-848a-f187376665a6",
+      "comment": "",
+      "command": "click",
+      "target": "id=password_current",
+      "targets": [
+        ["id=password_current", "id"],
+        ["name=password_current", "name"],
+        ["css=#password_current", "css:finder"],
+        ["xpath=//input[@id='password_current']", "xpath:attributes"],
+        ["xpath=//article[@id='post-2664']/div/div/div/form/fieldset/p/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b78eab3e-a280-4501-84b7-3f01b250eba2",
+      "comment": "",
+      "command": "type",
+      "target": "id=password_current",
+      "targets": [
+        ["id=password_current", "id"],
+        ["name=password_current", "name"],
+        ["css=#password_current", "css:finder"],
+        ["xpath=//input[@id='password_current']", "xpath:attributes"],
+        ["xpath=//article[@id='post-2664']/div/div/div/form/fieldset/p/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1291fefa-5bea-4a47-9370-cce5e5adabfb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.woocommerce:nth-child(1)",
+      "targets": [
+        ["css=.woocommerce:nth-child(1)", "css:finder"],
+        ["xpath=//article[@id='post-2664']/div/div", "xpath:idRelative"],
+        ["xpath=//article/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e065d13-aa4c-4004-8da6-9157b795a90d",
+      "comment": "",
+      "command": "click",
+      "target": "name=save_account_details",
+      "targets": [
+        ["name=save_account_details", "name"],
+        ["css=.woocommerce-Button", "css:finder"],
+        ["xpath=//button[@name='save_account_details']", "xpath:attributes"],
+        ["xpath=//article[@id='post-2664']/div/div/div/form/p[5]/button", "xpath:idRelative"],
+        ["xpath=//p[5]/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "5e9458cf-b81b-4414-9511-09a733581ea7",
+    "name": "Change Billing address",
+    "commands": [{
+      "id": "8a5f2645-53b3-4613-8fac-109f694d5400",
+      "comment": "",
+      "command": "open",
+      "target": "https://skandabysarasi.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "44a3b1c4-2755-4068-86d6-ae9933ebc306",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x786",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "aff4c814-60f4-4b2d-8005-b27622960851",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header-account .svg-icon",
+      "targets": [
+        ["css=.header-account .svg-icon", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "3368e64c-8a31-41d4-b231-72fed92083dc",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Addresses",
+      "targets": [
+        ["linkText=Addresses", "linkText"],
+        ["css=.woocommerce-MyAccount-navigation-link--edit-address > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Addresses')])[2]", "xpath:link"],
+        ["xpath=//article[@id='post-2664']/div/div/nav/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://skandabysarasi.com/?page_id=2664&edit-address')])[2]", "xpath:href"],
+        ["xpath=//article/div/div/nav/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a148c5e-f47b-4b96-9498-9697b3447997",
+      "comment": "",
+      "command": "click",
+      "target": "css=.u-column1 .edit",
+      "targets": [
+        ["css=.u-column1 .edit", "css:finder"],
+        ["xpath=//a[contains(text(),'Edit')]", "xpath:link"],
+        ["xpath=//article[@id='post-2664']/div/div/div/div[2]/div/header/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://skandabysarasi.com/?page_id=2664&edit-address=billing')]", "xpath:href"],
+        ["xpath=//header/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a36d15b4-6e79-4d1c-a26e-519de82a1545",
+      "comment": "",
+      "command": "click",
+      "target": "id=billing_first_name",
+      "targets": [
+        ["id=billing_first_name", "id"],
+        ["name=billing_first_name", "name"],
+        ["css=#billing_first_name", "css:finder"],
+        ["xpath=//input[@id='billing_first_name']", "xpath:attributes"],
+        ["xpath=//p[@id='billing_first_name_field']/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e1a0a7a8-14b6-4874-a299-7305dd84ab28",
+      "comment": "",
+      "command": "type",
+      "target": "id=billing_first_name",
+      "targets": [
+        ["id=billing_first_name", "id"],
+        ["name=billing_first_name", "name"],
+        ["css=#billing_first_name", "css:finder"],
+        ["xpath=//input[@id='billing_first_name']", "xpath:attributes"],
+        ["xpath=//p[@id='billing_first_name_field']/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": "Lawantha"
+    }, {
+      "id": "b87ac70b-8dea-442f-a7a4-841d7c1708e8",
+      "comment": "",
+      "command": "click",
+      "target": "id=billing_last_name",
+      "targets": [
+        ["id=billing_last_name", "id"],
+        ["name=billing_last_name", "name"],
+        ["css=#billing_last_name", "css:finder"],
+        ["xpath=//input[@id='billing_last_name']", "xpath:attributes"],
+        ["xpath=//p[@id='billing_last_name_field']/span/input", "xpath:idRelative"],
+        ["xpath=//p[2]/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a899ee03-6ed4-4272-bc7f-63044febd82f",
+      "comment": "",
+      "command": "type",
+      "target": "id=billing_last_name",
+      "targets": [
+        ["id=billing_last_name", "id"],
+        ["name=billing_last_name", "name"],
+        ["css=#billing_last_name", "css:finder"],
+        ["xpath=//input[@id='billing_last_name']", "xpath:attributes"],
+        ["xpath=//p[@id='billing_last_name_field']/span/input", "xpath:idRelative"],
+        ["xpath=//p[2]/span/input", "xpath:position"]
+      ],
+      "value": "Test"
+    }, {
+      "id": "a08abc9a-8a50-4e90-93c6-f8b9e058c0a4",
+      "comment": "",
+      "command": "click",
+      "target": "id=billing_address_1",
+      "targets": [
+        ["id=billing_address_1", "id"],
+        ["name=billing_address_1", "name"],
+        ["css=#billing_address_1", "css:finder"],
+        ["xpath=//input[@id='billing_address_1']", "xpath:attributes"],
+        ["xpath=//p[@id='billing_address_1_field']/span/input", "xpath:idRelative"],
+        ["xpath=//p[5]/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c8814160-c253-4020-9376-53650a9c0b41",
+      "comment": "",
+      "command": "click",
+      "target": "id=billing_address_1",
+      "targets": [
+        ["id=billing_address_1", "id"],
+        ["name=billing_address_1", "name"],
+        ["css=#billing_address_1", "css:finder"],
+        ["xpath=//input[@id='billing_address_1']", "xpath:attributes"],
+        ["xpath=//p[@id='billing_address_1_field']/span/input", "xpath:idRelative"],
+        ["xpath=//p[5]/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ee0796ae-fd3a-40c7-ace3-fea8208a630e",
+      "comment": "",
+      "command": "click",
+      "target": "id=billing_address_1",
+      "targets": [
+        ["id=billing_address_1", "id"],
+        ["name=billing_address_1", "name"],
+        ["css=#billing_address_1", "css:finder"],
+        ["xpath=//input[@id='billing_address_1']", "xpath:attributes"],
+        ["xpath=//p[@id='billing_address_1_field']/span/input", "xpath:idRelative"],
+        ["xpath=//p[5]/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "71668f33-e578-4ec3-a517-3f0a5752eb50",
+      "comment": "",
+      "command": "click",
+      "target": "id=billing_address_1",
+      "targets": [
+        ["id=billing_address_1", "id"],
+        ["name=billing_address_1", "name"],
+        ["css=#billing_address_1", "css:finder"],
+        ["xpath=//input[@id='billing_address_1']", "xpath:attributes"],
+        ["xpath=//p[@id='billing_address_1_field']/span/input", "xpath:idRelative"],
+        ["xpath=//p[5]/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7570b7a5-7dec-4eb8-81a0-d1c7ed3b57bf",
+      "comment": "",
+      "command": "type",
+      "target": "id=billing_address_1",
+      "targets": [
+        ["id=billing_address_1", "id"],
+        ["name=billing_address_1", "name"],
+        ["css=#billing_address_1", "css:finder"],
+        ["xpath=//input[@id='billing_address_1']", "xpath:attributes"],
+        ["xpath=//p[@id='billing_address_1_field']/span/input", "xpath:idRelative"],
+        ["xpath=//p[5]/span/input", "xpath:position"]
+      ],
+      "value": "01,lawantha,home"
+    }, {
+      "id": "4aac0e3b-eb43-4d51-9af0-4ad4e044910c",
+      "comment": "",
+      "command": "click",
+      "target": "id=billing_city",
+      "targets": [
+        ["id=billing_city", "id"],
+        ["name=billing_city", "name"],
+        ["css=#billing_city", "css:finder"],
+        ["xpath=//input[@id='billing_city']", "xpath:attributes"],
+        ["xpath=//p[@id='billing_city_field']/span/input", "xpath:idRelative"],
+        ["xpath=//p[7]/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7415da7d-0ad8-47e1-bf51-6aa24a95b9c9",
+      "comment": "",
+      "command": "click",
+      "target": "id=billing_postcode",
+      "targets": [
+        ["id=billing_postcode", "id"],
+        ["name=billing_postcode", "name"],
+        ["css=#billing_postcode", "css:finder"],
+        ["xpath=//input[@id='billing_postcode']", "xpath:attributes"],
+        ["xpath=//p[@id='billing_postcode_field']/span/input", "xpath:idRelative"],
+        ["xpath=//p[9]/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5015aa6b-31d6-458d-91bc-96451a7f4464",
+      "comment": "",
+      "command": "click",
+      "target": "id=billing_phone",
+      "targets": [
+        ["id=billing_phone", "id"],
+        ["name=billing_phone", "name"],
+        ["css=#billing_phone", "css:finder"],
+        ["xpath=//input[@id='billing_phone']", "xpath:attributes"],
+        ["xpath=//p[@id='billing_phone_field']/span/input", "xpath:idRelative"],
+        ["xpath=//p[10]/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d33cd6d9-811b-4647-8336-e16d173cafe3",
+      "comment": "",
+      "command": "type",
+      "target": "id=billing_phone",
+      "targets": [
+        ["id=billing_phone", "id"],
+        ["name=billing_phone", "name"],
+        ["css=#billing_phone", "css:finder"],
+        ["xpath=//input[@id='billing_phone']", "xpath:attributes"],
+        ["xpath=//p[@id='billing_phone_field']/span/input", "xpath:idRelative"],
+        ["xpath=//p[10]/span/input", "xpath:position"]
+      ],
+      "value": "1234567890"
+    }, {
+      "id": "3af22f36-5e6e-4151-9804-f3476ad29cd3",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "id=billing_email",
+      "targets": [
+        ["id=billing_email", "id"],
+        ["name=billing_email", "name"],
+        ["css=#billing_email", "css:finder"],
+        ["xpath=//input[@id='billing_email']", "xpath:attributes"],
+        ["xpath=//p[@id='billing_email_field']/span/input", "xpath:idRelative"],
+        ["xpath=//p[11]/span/input", "xpath:position"]
+      ],
+      "value": "-112,16.649993896484375"
+    }, {
+      "id": "7c219ccd-ea38-46e3-8c6b-9b127fd57fa0",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "id=billing_email",
+      "targets": [
+        ["id=billing_email", "id"],
+        ["name=billing_email", "name"],
+        ["css=#billing_email", "css:finder"],
+        ["xpath=//input[@id='billing_email']", "xpath:attributes"],
+        ["xpath=//p[@id='billing_email_field']/span/input", "xpath:idRelative"],
+        ["xpath=//p[11]/span/input", "xpath:position"]
+      ],
+      "value": "-112,16.649993896484375"
+    }, {
+      "id": "071deca9-9d16-4b03-9bfb-64c5f6fca830",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "id=billing_email",
+      "targets": [
+        ["id=billing_email", "id"],
+        ["name=billing_email", "name"],
+        ["css=#billing_email", "css:finder"],
+        ["xpath=//input[@id='billing_email']", "xpath:attributes"],
+        ["xpath=//p[@id='billing_email_field']/span/input", "xpath:idRelative"],
+        ["xpath=//p[11]/span/input", "xpath:position"]
+      ],
+      "value": "-112,16.649993896484375"
+    }, {
+      "id": "afb750d0-3b1b-4245-81e4-d7e3f8b4e49a",
+      "comment": "",
+      "command": "click",
+      "target": "id=billing_email",
+      "targets": [
+        ["id=billing_email", "id"],
+        ["name=billing_email", "name"],
+        ["css=#billing_email", "css:finder"],
+        ["xpath=//input[@id='billing_email']", "xpath:attributes"],
+        ["xpath=//p[@id='billing_email_field']/span/input", "xpath:idRelative"],
+        ["xpath=//p[11]/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7bdba6fe-a0a7-4412-8664-2b9bd5414409",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "id=billing_email",
+      "targets": [
+        ["id=billing_email", "id"],
+        ["name=billing_email", "name"],
+        ["css=#billing_email", "css:finder"],
+        ["xpath=//input[@id='billing_email']", "xpath:attributes"],
+        ["xpath=//p[@id='billing_email_field']/span/input", "xpath:idRelative"],
+        ["xpath=//p[11]/span/input", "xpath:position"]
+      ],
+      "value": "105,24.649993896484375"
+    }, {
+      "id": "5c7ac436-66c0-4284-b660-e625c17cf72a",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "id=billing_email",
+      "targets": [
+        ["id=billing_email", "id"],
+        ["name=billing_email", "name"],
+        ["css=#billing_email", "css:finder"],
+        ["xpath=//input[@id='billing_email']", "xpath:attributes"],
+        ["xpath=//p[@id='billing_email_field']/span/input", "xpath:idRelative"],
+        ["xpath=//p[11]/span/input", "xpath:position"]
+      ],
+      "value": "105,24.649993896484375"
+    }, {
+      "id": "ef9b8b71-57df-4004-8f6c-770b0ebac138",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "id=billing_email",
+      "targets": [
+        ["id=billing_email", "id"],
+        ["name=billing_email", "name"],
+        ["css=#billing_email", "css:finder"],
+        ["xpath=//input[@id='billing_email']", "xpath:attributes"],
+        ["xpath=//p[@id='billing_email_field']/span/input", "xpath:idRelative"],
+        ["xpath=//p[11]/span/input", "xpath:position"]
+      ],
+      "value": "105,24.649993896484375"
+    }, {
+      "id": "c666fa8f-05d5-4526-8893-d826bb2afac6",
+      "comment": "",
+      "command": "click",
+      "target": "id=billing_email",
+      "targets": [
+        ["id=billing_email", "id"],
+        ["name=billing_email", "name"],
+        ["css=#billing_email", "css:finder"],
+        ["xpath=//input[@id='billing_email']", "xpath:attributes"],
+        ["xpath=//p[@id='billing_email_field']/span/input", "xpath:idRelative"],
+        ["xpath=//p[11]/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac22118a-1969-4404-b885-c22dd46305e6",
+      "comment": "",
+      "command": "type",
+      "target": "id=billing_email",
+      "targets": [
+        ["id=billing_email", "id"],
+        ["name=billing_email", "name"],
+        ["css=#billing_email", "css:finder"],
+        ["xpath=//input[@id='billing_email']", "xpath:attributes"],
+        ["xpath=//p[@id='billing_email_field']/span/input", "xpath:idRelative"],
+        ["xpath=//p[11]/span/input", "xpath:position"]
+      ],
+      "value": "lawanthatest@gmail.com"
+    }, {
+      "id": "97d58f3d-7c63-49e3-aafc-e50ec88447cc",
+      "comment": "",
+      "command": "click",
+      "target": "name=save_address",
+      "targets": [
+        ["name=save_address", "name"],
+        ["css=.button:nth-child(1)", "css:finder"],
+        ["xpath=//button[@name='save_address']", "xpath:attributes"],
+        ["xpath=//article[@id='post-2664']/div/div/div/form/div/p/button", "xpath:idRelative"],
+        ["xpath=//p/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "a72c9ac5-b3bc-473c-aeb5-d7136d53aa34",
+    "name": "Change shipping address",
+    "commands": [{
+      "id": "5d918bea-d7bd-4142-9c39-0bf551215915",
+      "comment": "",
+      "command": "open",
+      "target": "https://skandabysarasi.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7871c2c5-ae89-42ca-8c73-a6329f1c752a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x786",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "af461c76-029e-4b80-9c72-787d98047171",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header-account .svg-icon",
+      "targets": [
+        ["css=.header-account .svg-icon", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "a5e421c0-dcc2-4022-b0ab-f26681d028d6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Addresses",
+      "targets": [
+        ["linkText=Addresses", "linkText"],
+        ["css=.woocommerce-MyAccount-navigation-link--edit-address > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Addresses')])[2]", "xpath:link"],
+        ["xpath=//article[@id='post-2664']/div/div/nav/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://skandabysarasi.com/?page_id=2664&edit-address')])[2]", "xpath:href"],
+        ["xpath=//article/div/div/nav/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "663d8ca7-0b5e-4737-ab18-ec33f4f94d16",
+      "comment": "",
+      "command": "click",
+      "target": "css=.u-column2 .edit",
+      "targets": [
+        ["css=.u-column2 .edit", "css:finder"],
+        ["xpath=(//a[contains(text(),'Add')])[3]", "xpath:link"],
+        ["xpath=//article[@id='post-2664']/div/div/div/div[2]/div[2]/header/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://skandabysarasi.com/?page_id=2664&edit-address=shipping')]", "xpath:href"],
+        ["xpath=//div[2]/header/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4ba73eb1-a8a7-4406-9573-811a2ff4a182",
+      "comment": "",
+      "command": "click",
+      "target": "id=shipping_first_name",
+      "targets": [
+        ["id=shipping_first_name", "id"],
+        ["name=shipping_first_name", "name"],
+        ["css=#shipping_first_name", "css:finder"],
+        ["xpath=//input[@id='shipping_first_name']", "xpath:attributes"],
+        ["xpath=//p[@id='shipping_first_name_field']/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d259cf22-42c4-4340-8ea2-05ecc13a91e1",
+      "comment": "",
+      "command": "type",
+      "target": "id=shipping_first_name",
+      "targets": [
+        ["id=shipping_first_name", "id"],
+        ["name=shipping_first_name", "name"],
+        ["css=#shipping_first_name", "css:finder"],
+        ["xpath=//input[@id='shipping_first_name']", "xpath:attributes"],
+        ["xpath=//p[@id='shipping_first_name_field']/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": "Lawantha"
+    }, {
+      "id": "0ecc0e54-f87c-4f97-8214-dd99c2ca492b",
+      "comment": "",
+      "command": "type",
+      "target": "id=shipping_last_name",
+      "targets": [
+        ["id=shipping_last_name", "id"],
+        ["name=shipping_last_name", "name"],
+        ["css=#shipping_last_name", "css:finder"],
+        ["xpath=//input[@id='shipping_last_name']", "xpath:attributes"],
+        ["xpath=//p[@id='shipping_last_name_field']/span/input", "xpath:idRelative"],
+        ["xpath=//p[2]/span/input", "xpath:position"]
+      ],
+      "value": "Bandara"
+    }, {
+      "id": "16f89aeb-b797-4eb1-a79d-2064a72eedd6",
+      "comment": "",
+      "command": "click",
+      "target": "id=shipping_address_1",
+      "targets": [
+        ["id=shipping_address_1", "id"],
+        ["name=shipping_address_1", "name"],
+        ["css=#shipping_address_1", "css:finder"],
+        ["xpath=//input[@id='shipping_address_1']", "xpath:attributes"],
+        ["xpath=//p[@id='shipping_address_1_field']/span/input", "xpath:idRelative"],
+        ["xpath=//p[5]/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "470b4d43-5284-4490-8fb7-7afd1708b2db",
+      "comment": "",
+      "command": "type",
+      "target": "id=shipping_address_1",
+      "targets": [
+        ["id=shipping_address_1", "id"],
+        ["name=shipping_address_1", "name"],
+        ["css=#shipping_address_1", "css:finder"],
+        ["xpath=//input[@id='shipping_address_1']", "xpath:attributes"],
+        ["xpath=//p[@id='shipping_address_1_field']/span/input", "xpath:idRelative"],
+        ["xpath=//p[5]/span/input", "xpath:position"]
+      ],
+      "value": "01,lawantha,home"
+    }, {
+      "id": "f62ad9da-2659-4f1e-9406-aac64ccf5f99",
+      "comment": "",
+      "command": "click",
+      "target": "id=shipping_city",
+      "targets": [
+        ["id=shipping_city", "id"],
+        ["name=shipping_city", "name"],
+        ["css=#shipping_city", "css:finder"],
+        ["xpath=//input[@id='shipping_city']", "xpath:attributes"],
+        ["xpath=//p[@id='shipping_city_field']/span/input", "xpath:idRelative"],
+        ["xpath=//p[7]/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7ec725f3-65c7-435a-bb57-1b5b4eebcb38",
+      "comment": "",
+      "command": "type",
+      "target": "id=shipping_city",
+      "targets": [
+        ["id=shipping_city", "id"],
+        ["name=shipping_city", "name"],
+        ["css=#shipping_city", "css:finder"],
+        ["xpath=//input[@id='shipping_city']", "xpath:attributes"],
+        ["xpath=//p[@id='shipping_city_field']/span/input", "xpath:idRelative"],
+        ["xpath=//p[7]/span/input", "xpath:position"]
+      ],
+      "value": "kandy"
+    }, {
+      "id": "509c0ab5-e745-45f2-986e-fba4b50bdd8f",
+      "comment": "",
+      "command": "click",
+      "target": "id=shipping_postcode",
+      "targets": [
+        ["id=shipping_postcode", "id"],
+        ["name=shipping_postcode", "name"],
+        ["css=#shipping_postcode", "css:finder"],
+        ["xpath=//input[@id='shipping_postcode']", "xpath:attributes"],
+        ["xpath=//p[@id='shipping_postcode_field']/span/input", "xpath:idRelative"],
+        ["xpath=//p[9]/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2eca742a-df9d-4862-bb39-b657d9725b7f",
+      "comment": "",
+      "command": "type",
+      "target": "id=shipping_postcode",
+      "targets": [
+        ["id=shipping_postcode", "id"],
+        ["name=shipping_postcode", "name"],
+        ["css=#shipping_postcode", "css:finder"],
+        ["xpath=//input[@id='shipping_postcode']", "xpath:attributes"],
+        ["xpath=//p[@id='shipping_postcode_field']/span/input", "xpath:idRelative"],
+        ["xpath=//p[9]/span/input", "xpath:position"]
+      ],
+      "value": "1234"
+    }, {
+      "id": "c725cfe9-c568-4f64-9a1b-b9934f64e76d",
+      "comment": "",
+      "command": "click",
+      "target": "name=save_address",
+      "targets": [
+        ["name=save_address", "name"],
+        ["css=.button:nth-child(1)", "css:finder"],
+        ["xpath=//button[@name='save_address']", "xpath:attributes"],
+        ["xpath=//article[@id='post-2664']/div/div/div/form/div/p/button", "xpath:idRelative"],
+        ["xpath=//p/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "83348af1-2188-4838-9b0b-b0c366aa356d",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["0b0a7441-451d-4056-bbda-6dd480da48bf"]
+  }],
+  "urls": ["https://skandabysarasi.com/"],
+  "plugins": []
+}
